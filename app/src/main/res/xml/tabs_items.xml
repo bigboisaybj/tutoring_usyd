@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <tab
+        id="@+id/tabs_settings"
+        icon="@drawable/ic_settings"
+        title="@string/tabs_settings" />
+
+    <tab
+        id="@+id/tabs_search"
+        icon="@drawable/ic_search"
+        title="@string/tabs_search" />
+
+    <tab
+        id="@+id/tabs_add"
+        icon="@drawable/ic_add"
+        title="@string/tabs_add" />
+
+    <tab
+        id="@+id/tabs_categories"
+        icon="@drawable/ic_restaurant_menu"
+        title="@string/tabs_categories" />
+
+    <tab
+        id="@+id/tabs_confirm"
+        icon="@drawable/ic_check"
+        title="@string/tabs_confirm" />
+
+</tabs>

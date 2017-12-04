@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        android:padding="8dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="0dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/cardView2"
+        app:layout_constraintRight_toRightOf="@+id/cardView2"
+        app:layout_constraintTop_toTopOf="@+id/cardView2">
+
+        <info.brightly.bright.PanelScrollView
+            android:id="@+id/buttons"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:scrollbars="none"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/cardView2">
+
+            <TableLayout
+                android:id="@+id/buttonTable"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:id="@+id/blankRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/locationRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/loc1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:gravity="center"
+                        android:text="Distance"
+                        android:textSize="8sp" />
+
+                    <Button
+                        android:id="@+id/loc2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:gravity="center"
+                        android:text="ETA"
+                        android:textSize="8sp" />
+
+                    <Button
+                        android:id="@+id/loc3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:gravity="center"
+                        android:onClick="Map"
+                        android:text="Map"
+                        android:textSize="8sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/locationRow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/loc4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:gravity="center"
+                        android:text="Instagram"
+                        android:textSize="7sp" />
+
+                    <Button
+                        android:id="@+id/loc5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:gravity="center"
+                        android:text="Twitter"
+                        android:textSize="8sp" />
+
+                    <Button
+                        android:id="@+id/loc6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:gravity="center"
+                        android:text="Facebook"
+                        android:textSize="8sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/addRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/add1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:text="Add 1"
+                        android:textSize="8sp" />
+
+                    <Button
+                        android:id="@+id/add2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:text="Add 2"
+                        android:textSize="8sp" />
+
+                    <Button
+                        android:id="@+id/add3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:text="Add 3"
+                        android:textSize="8sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/addRow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/add4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:text="Add 4"
+                        android:textSize="8sp" />
+
+                    <Button
+                        android:id="@+id/add5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:text="Add 5"
+                        android:textSize="8sp" />
+
+                    <Button
+                        android:id="@+id/add6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:text="Add 6"
+                        android:textSize="8sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/menuRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/menu1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:gravity="center"
+                        android:text="Starters"
+                        android:textSize="8sp"
+                        android:onClick="CategoryClick"/>
+
+                    <Button
+                        android:id="@+id/menu2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:text="Mains"
+                        android:textSize="8sp"
+                        android:onClick="CategoryClick"/>
+
+                    <Button
+                        android:id="@+id/menu3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:gravity="center"
+                        android:text="Shares"
+                        android:textSize="8sp"
+                        android:onClick="CategoryClick"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/menuRow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/menu4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:text="Sides"
+                        android:textSize="8sp"
+                        android:onClick="CategoryClick"/>
+
+                    <Button
+                        android:id="@+id/menu5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:gravity="center"
+                        android:text="Drinks"
+                        android:textSize="8sp"
+                        android:onClick="CategoryClick"/>
+
+                    <Button
+                        android:id="@+id/menu6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:gravity="center"
+                        android:text="Desserts"
+                        android:textSize="8sp"
+                        android:onClick="CategoryClick"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/blankRow2"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent">
+
+                    <Space
+                        android:layout_width="50dp"
+                        android:layout_height="60dp" />
+                </TableRow>
+
+            </TableLayout>
+        </info.brightly.bright.PanelScrollView>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="0dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/pullBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp"
+            android:paddingBottom="0dp"
+            android:paddingEnd="0dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingStart="0dp"
+            android:paddingTop="0dp"
+            app:layout_constraintHorizontal_bias="0.461"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/arrowUp"
+                android:layout_width="45dp"
+                android:layout_height="10dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/arrow" />
+
+            <TextView
+                android:id="@+id/slidingTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:text="Test text"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/arrowUp" />
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

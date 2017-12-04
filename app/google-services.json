@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "182682636463",
+    "firebase_url": "https://bright-application.firebaseio.com",
+    "project_id": "bright-application",
+    "storage_bucket": "bright-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182682636463:android:32fdb54dab3464ca",
+        "android_client_info": {
+          "package_name": "info.brightly.bright"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182682636463-aufoug8qh9pvq7uggd7m39rg6mrge439.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "info.brightly.bright",
+            "certificate_hash": "eca344e6e6912c6e9faf50103401cd0f6654b4df"
+          }
+        },
+        {
+          "client_id": "182682636463-07dqgaui9662r18qhl51srvdjds09jem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuWC38yha98D29PUzgqdfn0rHgzDEdBOo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182682636463-07dqgaui9662r18qhl51srvdjds09jem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

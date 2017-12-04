@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/backend.iml" filepath="$PROJECT_DIR$/backend/backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bright-application.iml" filepath="$PROJECT_DIR$/bright-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chyl9109-bright-application-b99a95022133.iml" filepath="$PROJECT_DIR$/chyl9109-bright-application-b99a95022133.iml" />
+    </modules>
+  </component>
+</project>

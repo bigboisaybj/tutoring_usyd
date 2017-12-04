@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/tabs_settings"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/tabs_settings"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/tabs_search"
+        android:enabled="true"
+        android:icon="@drawable/ic_search"
+        android:title="@string/tabs_search"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/tabs_add"
+        android:enabled="true"
+        android:icon="@drawable/ic_add"
+        android:title="@string/tabs_add"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/tabs_categories"
+        android:enabled="true"
+        android:icon="@drawable/ic_restaurant_menu"
+        android:title="@string/tabs_categories"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/tabs_confirm"
+        android:enabled="true"
+        android:icon="@drawable/ic_check"
+        android:title="@string/tabs_confirm"
+        app:showAsAction="ifRoom" />
+
+</menu>
